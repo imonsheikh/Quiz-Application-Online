@@ -1,0 +1,140 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,300&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="style.css">
+     
+    <!-- cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+</head>
+ <body>
+
+        <!-- ====== First page ======= -->
+    <div class="myQuizAp
+        <div class="homeImg">
+            <img src="Images/4207.jpg" alt="">
+        </div>
+        <div class="homeText">
+            <h3>Quiz App With Fixed Time</h3>
+            <p>Welcome to this quiz app.In this app you can improve your programming knowledge. </p>
+        
+            <h3>Are You Ready?</h3>
+             <p>Press The Start Button</p>
+        
+        </div>
+        <div class="homeBtn">
+            <button>Start</button>
+        </div>
+
+    </div>
+
+
+
+
+    <!--=== =====Second page======= -->
+    
+    <div class="rulesBox">
+        <div class="rulesTitle ">There Are Some Rules Of This Quiz</div>
+        <div class="rulesList">
+            <ol>
+                <li>1. you will have only <span style="color: blue;">15 seconds</span> for per each question.</li>
+                <li>2. once you select your answer, it can't be undone.</li>
+                <li>3. you can't select any option once time goes off.</li>
+                <li>4. you can't exit from the quiz while you're playing.</li>
+                <li>5. you get points on the basis of your correct answers.</li>
+            </ol>
+        </div>
+
+        <div class="buttons">
+            <button class="exitButton">Exit Quiz</button>
+            <button class="continueButton">Continue</button>
+        </div>
+    </div>
+
+
+<!-- ===============   3rd page   ============  -->
+
+<div class="questions">
+
+    <header class="questionHeader">
+        <div class="title">Start Exam</div>
+        
+          <div class="timeCount">
+            <div class="timeLeft">Time Left</div>
+            <div class="seconds">15</div>
+          </div>
+        <div class="timeLines"></div>
+        </header>
+      
+    <div class="questionSection">
+       <div class="text">
+        <!-- <span>1. What Does HTML Stand For?</span> -->
+    </div>
+       <div class="myOptions">
+
+          <!-- <div class="options">
+            <span>Hyper Text Multiple Language</span>
+            <i class="fa-regular fa-circle-xmark"></i>
+          </div>
+          <div class="options">
+            <span>Hyper Text Markup Language</span>
+            <i class="fa-regular fa-circle-check"></i> 
+          </div>
+          <div class="options">
+            <span>Hyper Text Multi Language</span>
+            <i class="fa-regular fa-circle-xmark"></i>
+          </div>
+          <div class="options">
+            <span>Hyper Text Multi-position Language</span>
+            <i class="fa-regular fa-circle-xmark"></i>
+          </div> -->
+          
+          
+       </div>
+    </div>
+   
+
+    <footer>
+        <div class="totalQues">
+            <!-- <p>1 of 5 Questions</p> -->
+        </div>
+        <button class="nextBtn">Next</button>
+    </footer>
+</div>
+
+<div class="resultBox">
+    <div class="resultImg">
+        <img src="Images/4529164.jpg" alt="" srcset="">
+    </div>
+    <div class="completeText">
+        You Have Finished This Exam 
+    </div>
+    <div class="scoreText">
+        <span>Carry On🙂 You Got <p>0</p> Out Of <p>5</p></span>
+    </div>
+    <div class="buttons2">
+        <button class="restart1">Replay</button>
+        <button class="exit">Exit Quiz</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="JS/script.js"></script>
+<script src="JS/question.js"></script>
+ </body>
+ </html>
